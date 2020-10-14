@@ -1,0 +1,355 @@
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  
+<div id="c-animate">
+    <div class="c-background__content">
+        
+    <div align="right" style="margin: 10px;"> 
+        <a href="signin.php" type="button" class="btn" style="background-color: red; color:white"> S'inscrire</a>
+        <a href="login.php" type="button" class="btn btn-default" style="color: red; ">Se connecter</a>
+    </div>
+    <div class="promos">  
+        <div class="promo">
+            <div class="deal">
+            <span>Math</span>
+            <span>Comprendre les maths n'a jamais été aussi facile!</span>
+            </div>
+            <span class="price">Nom de prof</span>
+            <ul class="features">
+            <li>Math un univers pas comme les autres</li>
+            <li>Et plein d'autres  </li>
+            <li>Allez viens</li>   
+            </ul>
+            <button class="meet"><a href="index.php" >Rejoindre</a></button>
+        </div>
+        <div class="promo">
+            <div class="deal">
+            <span>Math</span>
+            <span>Comprendre les maths n'a jamais été aussi facile!</span>
+            </div>
+            <span class="price">Nom de prof</span>
+            <ul class="features">
+            <li>Math un univers pas comme les autres</li>
+            <li>Et plein d'autres  </li>
+            <li>Allez viens</li>   
+            </ul>
+            <button class="meet">Rejoindre</button>
+        </div>
+        <div class="promo">
+            <div class="deal">
+            <span>Math</span>
+            <span>Comprendre les maths n'a jamais été aussi facile!</span>
+            </div>
+            <span class="price">Nom de prof</span>
+            <ul class="features">
+            <li>Math un univers pas comme les autres</li>
+            <li>Et plein d'autres  </li>
+            <li>Allez viens</li>   
+            </ul>
+            <button class="meet">Rejoindre</button>
+        </div>
+        <div class="promo">
+            <div class="deal">
+            <span>Math</span>
+            <span>Comprendre les maths n'a jamais été aussi facile!</span>
+            </div>
+            <span class="price">Nom de prof</span>
+            <ul class="features">
+            <li>Math un univers pas comme les autres</li>
+            <li>Et plein d'autres  </li>
+            <li>Allez viens</li>   
+            </ul>
+            <button class="meet">Rejoindre</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;  
+}
+.promos {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.promo {
+  width: 250px;
+  background: #0F1012; 
+  color: #f9f9f9;
+  margin : 20px;
+	
+  float: left;
+}
+.deal {
+  padding: 10px 0 0 0;
+}
+.deal span {
+  display: block;
+  text-align: center;
+}
+.deal span:first-of-type {
+  font-size: 23px;  
+}
+.deal span:last-of-type {
+  font-size: 13px;
+}
+.promo .price {
+  display: block;
+  width: 250px;  
+  background: #292b2e;
+  margin: 15px 0 10px 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 17px 0 17px 0;
+}
+ul {
+  display: block;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+ .meet {
+  border: none;
+  border-radius: 40px;
+  background:#292b2e ;
+  color: #f9f9f9;
+  padding: 10px 37px;
+  margin: 10px 0 20px 60px;
+}
+ .sign {
+    background-color: none;
+}
+.promo:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+.scale button {
+  background: #64AAA4;
+}
+.scale .price {
+  color: #64AAA4;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#c-animate {
+  position: absolute;
+  width: 100%;
+  height:200%;
+  background-image: url("") no-repeat center center;
+  background: linear-gradient(-45deg, #82e8ff, #a974e8, #ffffff);
+  background-size: 400% 400%;
+  animation: animate 15s ease infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.c-background__content {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -weAbkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+.c-background__title {
+  font-size: 8rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: normal;
+  line-height: 8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 450px;
+  text-align: center;
+  margin: 115px auto;
+}
+
+    </style>
+
+    <script>
+        //particlesJS
+particlesJS("c-animate", {
+  "particles": {
+    "number": {
+      "value": 275,
+      "density": {
+        "enable": true,
+        "value_area": 2000
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": ["circle", "triangle", "circle"],
+      "stroke": {
+        "width": 5,
+        "color": "#fff"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 10,
+        "height": 10
+      }
+    },
+    "opacity": {
+      "value": 2,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": true
+      }
+    },
+    "size": {
+      "value": 12,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 45,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 200,
+      "color": "#ffffff",
+      "opacity": 0.7,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.2,
+      "direction": "top-bottom-right",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 1200,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 1,
+        "duration": 2,
+        "opacity": 1,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 100,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+// letter animate
+$('.c-background__title').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+anime.timeline({loop: false})
+  .add({
+  targets: '.c-background__title .letter',
+  opacity: [0,1],
+  easing: "easeInOutQuad",
+  duration: 2250,
+  delay: function(el, i) {
+    return 220 * (i+1)
+  }
+}).add({
+  targets: '.c-background__title',
+  opacity: 1,
+  duration: 700,
+  easing: "easeOutExpo",
+  delay: 700, 
+  scale: 1,
+  // transition: 4,
+  // translateX: 110,
+});
+
+    </script>>
